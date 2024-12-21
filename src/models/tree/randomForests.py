@@ -1,4 +1,4 @@
-import nqmDecisionTree
+import models.tree.nqmDecisionTree as nqmDecisionTree
 import numpy as np
 
 class randomForests():
@@ -37,7 +37,7 @@ class randomForests():
     
     def predict(self, X):
         trees = self.trees
-        assert isinstance(trees, list[nqmDecisionTree.DecisionTree]), "Wrong tree object list is of wrong type"
+        #assert isinstance(trees, list[nqmDecisionTree.DecisionTree]), "Wrong tree object list is of wrong type"
         total_predictions = []
         for i, tree in enumerate(trees):
             predictions = tree.predict(X)
