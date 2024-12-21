@@ -6,13 +6,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-import nqmDecisionTree
-from randomForests import randomForests
+import models.tree.nqmDecisionTree as nqmDecisionTree
+from models.tree.randomForests import randomForests
 
 def run_for_num_levels(num_levels, y_index, num_trees, max_feature_count, features, 
                        X_train, y_train, X_test, y_test):
-    '''
-    '''
     print(f"parallelizing for max_feature_count {max_feature_count}, num levels {num_levels}")
     # Entropy calculations
     tree = randomForests(
