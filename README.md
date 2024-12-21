@@ -15,3 +15,5 @@ The only dependencies required are `sklearn, pandas, matplotlib, numpy`, and `py
 ### DecisionTree:
 1) Allows fine tuning of parameters, including selection of entropy or gini and the max depth of the tree.
 2) Handles new data with unseen patterns during prediction by probabilistically choosing a child node to continue down instead of throwing errors or dumping into an "other" branch.
+### RandomForests:
+1) Allows fine tuning of parameters "num_trees, "max levels/depth per tree", "max number of features to sample & consider at each split", and "gain type (gini or information)". 
