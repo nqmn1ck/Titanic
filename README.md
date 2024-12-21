@@ -14,6 +14,10 @@ To test the random forest and decision tree models, I have created 3 unittest fi
 If you have the dependencies installed, you can run any of these by simply going to the parent folder and running 
 
 ```python test/test_*.py```. Every test file also has easy-access parameter variables if you would like to tweak them yourself.
+
+Example output from `test_random_forests_parameters.py`:
+![image](https://github.com/user-attachments/assets/f6d23636-76c3-4c11-876f-f88fdd07f3ad)
+
 ## Dependencies:
 The only dependencies required are `sklearn, pandas, matplotlib, numpy`, and `python >= 3.12` Install with pip or conda.
 
