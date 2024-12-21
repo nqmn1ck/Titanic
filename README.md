@@ -10,3 +10,8 @@ Hyperparameter search can be done by tweaking the evaluate_tree and evaluate_for
 
 ## Dependencies:
 The only dependencies required are `sklearn, pandas, matplotlib, numpy`, and `python >= 3.12` Install with pip or conda.
+
+## Features of each model:
+### DecisionTree:
+1) Allows fine tuning of parameters, including selection of entropy or gini and the max depth of the tree.
+2) Handles new data with unseen patterns during prediction by probabilistically choosing a child node to continue down instead of throwing errors or dumping into an "other" branch.
