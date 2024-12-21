@@ -4,4 +4,4 @@ Custom random forests implementation to solve the titanic survival prediction pr
 Hyperparameter search can be done by tweaking the evaluate_tree and evaluate_forest functions inside of main to search over different parameter values.
 
 # Dependencies:
-The only dependencies required are sklearn, pandas, matplotlib, numpy, and python 3.12 or higher. Install with pip or conda.
+The only dependencies required are `sklearn, pandas, matplotlib, numpy`, and `python >= 3.12` Install with pip or conda.
